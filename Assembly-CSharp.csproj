@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{F22B4D35-167F-2C10-2048-5CBC815CF1F0}</ProjectGuid>
+    <ProjectGuid>{B76BA758-ECE4-CF3C-84B2-BBDAE50CD017}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -57,11 +57,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\DisplayImage.cs" />
+    <Compile Include="Assets\Scripts\ButtonBehaviour.cs" />
+    <Compile Include="Assets\Scripts\ZoomInObject.cs" />
     <Compile Include="Assets\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\Scripts\Interaction.cs" />
     <Compile Include="Assets\Scripts\I_Interactable.cs" />
-    <Compile Include="Assets\Scripts\ZoomInObject.cs" />
-    <Compile Include="Assets\Scripts\ButtonBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
