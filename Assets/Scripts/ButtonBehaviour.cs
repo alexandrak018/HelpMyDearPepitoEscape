@@ -49,17 +49,6 @@ public class ButtonBehaviour : MonoBehaviour
 
         }
 
-        if (currentDisplay.CurrentState == DisplayImage.state.changedView && currentButtonId == buttonId.wallChangeButton)
-        {
-            GetComponent<Image>().color = new Color(GetComponent<Image>().color.r, GetComponent<Image>().color.g,
-                                                GetComponent<Image>().color.b, 0);
-
-            GetComponent<Button>().enabled = false;
-
-            this.transform.SetSiblingIndex(0);
-
-        }
-
     }
 
     void display_button()
@@ -80,9 +69,7 @@ public class ButtonBehaviour : MonoBehaviour
             GetComponent<Button>().enabled = true;
 
         }
-
-     
-
+   
 
     }
 
