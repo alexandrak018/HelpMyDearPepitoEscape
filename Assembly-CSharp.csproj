@@ -8,7 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{B76BA758-ECE4-CF3C-84B2-BBDAE50CD017}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -56,12 +57,17 @@
     <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio Tools for Unity\16.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\UIDisplay.cs" />
     <Compile Include="Assets\Scripts\DisplayImage.cs" />
     <Compile Include="Assets\Scripts\ButtonBehaviour.cs" />
+    <Compile Include="Assets\Scripts\ManageObject.cs" />
     <Compile Include="Assets\Scripts\ZoomInObject.cs" />
     <Compile Include="Assets\Scripts\ButtonHandler.cs" />
+    <Compile Include="Assets\Scripts\ChangeView.cs" />
     <Compile Include="Assets\Scripts\Interaction.cs" />
     <Compile Include="Assets\Scripts\I_Interactable.cs" />
+    <Compile Include="Assets\Scripts\PuzzleGame.cs" />
+    <Compile Include="Assets\Scripts\PuzzlePiece.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
