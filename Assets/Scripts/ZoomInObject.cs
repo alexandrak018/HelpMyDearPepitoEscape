@@ -1,7 +1,7 @@
-﻿using System.Collections;
+using System.Collections;
 using UnityEngine;
 
-public class ZoomInObject : MonoBehaviour, I_Interactable
+public class ZoomInObject : MonoBehaviour, I_Interactable //testcomment
    {
 
     public float zoomRatio = .5f;
