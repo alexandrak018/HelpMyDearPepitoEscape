@@ -9,6 +9,7 @@ public class UIDisplay : MonoBehaviour, I_Interactable
     public void Interaction(DisplayImage currentDisplay)
     {
         displayObj.SetActive(true);
+        //hi sandrine
     
     }
 }

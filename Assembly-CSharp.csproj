@@ -8,9 +8,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace>
-    </RootNamespace>
-    <ProjectGuid>{B76BA758-ECE4-CF3C-84B2-BBDAE50CD017}</ProjectGuid>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{72104CC1-A83F-5200-D679-27C50073BEA7}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -61,13 +60,13 @@
     <Compile Include="Assets\Scripts\DisplayImage.cs" />
     <Compile Include="Assets\Scripts\ButtonBehaviour.cs" />
     <Compile Include="Assets\Scripts\ManageObject.cs" />
+    <Compile Include="Assets\Scripts\PuzzleGame.cs" />
     <Compile Include="Assets\Scripts\ZoomInObject.cs" />
     <Compile Include="Assets\Scripts\ButtonHandler.cs" />
     <Compile Include="Assets\Scripts\ChangeView.cs" />
     <Compile Include="Assets\Scripts\Interaction.cs" />
-    <Compile Include="Assets\Scripts\I_Interactable.cs" />
-    <Compile Include="Assets\Scripts\PuzzleGame.cs" />
     <Compile Include="Assets\Scripts\PuzzlePiece.cs" />
+    <Compile Include="Assets\Scripts\I_Interactable.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
