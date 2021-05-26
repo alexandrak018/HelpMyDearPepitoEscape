@@ -39,7 +39,7 @@ public class DisplayImage : MonoBehaviour
         prevWall = 0;
         currentWall = 1;
     }
-
+    //another hidden comm
     void Update()
     {
         if (currentWall != prevWall)
